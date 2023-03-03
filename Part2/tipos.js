@@ -1,4 +1,4 @@
-//Tipos de dados e valores
+//Acessando dados no array dentro da lista
 
 const cliente = {
     nome: "Joao",
@@ -7,4 +7,4 @@ const cliente = {
     telefone: ["1155555550", "1144444440"],
   };
 
-  console.log(cliente.telefone);
+  console.log(cliente.telefone[1]);
