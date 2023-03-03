@@ -1,7 +1,7 @@
 //Acessando Objetos
 //Usando substring para delimitar a quantidade de caracteres que quero mostrar
 
-const usuario = {
+const produtos = {
     nome: "Andre",
     idade: 32,
     cpf: "858 568 598 72",
@@ -11,10 +11,10 @@ const usuario = {
   //console.log(cliente.nome)
   //Para ficar mais profissional vou escrever uma mensagem de resposta
 
-  console.log(`O nome do usuário é ${usuario.nome}, essa pessoa tem ${usuario.idade} anos.`)
+  console.log(`O nome do usuário é ${produtos.nome}, essa pessoa tem ${produtos.idade} anos.`)
   
   //Posso pedir aqui só os 3 primeiros numeros do cpf usando o substring
-  console.log(`os 3 primeiros dígitos do cpf é ${usuario.cpf.substring(0,3)}`)
+  console.log(`os 3 primeiros dígitos do cpf é ${produtos.cpf.substring(0,3)}`)
 
 
   //Console.log(cliente) tenho todas as informações do cliente
