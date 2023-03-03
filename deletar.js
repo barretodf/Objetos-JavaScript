@@ -12,11 +12,11 @@ const objPersonagem = {
    };
 
    
-console.log(objPersonagem)
-/*
+//console.log(objPersonagem)
+
    //Se quisermos, remover a propriedade aliado, podemos utilizar o operador delete:
 
    delete objPersonagem.aliado
 
 console.log(objPersonagem.aliado) //vai aparecer undefined
- */
+ 
