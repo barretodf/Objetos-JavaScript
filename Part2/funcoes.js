@@ -16,7 +16,7 @@ const cliente = {
     },
   };
   
-  cliente.efetuaPagamento(250);
+  cliente.efetuaPagamento(25);
 
 
   /*podemos guardar funções como propriedade de um objeto. 
