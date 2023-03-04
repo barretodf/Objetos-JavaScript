@@ -1,5 +1,4 @@
-//Transformando de objeto para lista
-//Agora tenho um array que na primeira posição tem um objeto
+//Adicionando uma nova entrada na lista usando o método push
 
 const cliente = {
     nome: "Joao",
@@ -17,4 +16,22 @@ const cliente = {
   },
 ];
   
+
+cliente.enderecos.push({
+  
+      rua: 'R. Joseph Climber',
+      numero: 1337,
+      apartamento: false,      
+    })
   console.log(cliente.enderecos);
+
+
+/*
+Logo, após declararmos essa propriedade e antes de exibirmos, incluiremos como acessar o array
+usando o método push: cliente.enderecos.push().
+
+Dentro do parênteses, podemos passar como parâmetro o que desejamos inserir, 
+no caso como temos um array de endereço, gostaríamos de incluir outro endereço. 
+
+Representamos esse endereço como um objeto, por isso, colocamos as chaves "{}".
+*/
