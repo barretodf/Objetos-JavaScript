@@ -1,5 +1,4 @@
-//Aninhando dados
-//Guardando um objeto dentro de outro
+//Acessando os dados nos objetos aninhados
 
 const cliente = {
     nome: "Joao",
