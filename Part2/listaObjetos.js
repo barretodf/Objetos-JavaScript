@@ -1,4 +1,4 @@
-//Adicionando uma nova entrada na lista usando o método push
+//Adicionando uma nova entrada na lista - usando filter
 
 const cliente = {
     nome: "Joao",
@@ -23,15 +23,21 @@ cliente.enderecos.push({
       numero: 1337,
       apartamento: false,      
     })
-  console.log(cliente.enderecos);
+  
+const listaApenasApartamentos = cliente.enderecos.filter(
+  (endereco) => endereco.apartamento === true
+);
+
+console.log(listaApenasApartamentos);
 
 
 /*
-Logo, após declararmos essa propriedade e antes de exibirmos, incluiremos como acessar o array
-usando o método push: cliente.enderecos.push().
+podemos acrescentar uma nova lista a partir dessa lista que geramos, 
+usando um método do array chamado filter ("filtro"). Este seleciona alguns campos ou 
+entradas de forma específica para colocar na lista.
 
-Dentro do parênteses, podemos passar como parâmetro o que desejamos inserir, 
-no caso como temos um array de endereço, gostaríamos de incluir outro endereço. 
+Para fazer essa chamada, vamos criar uma nova lista const listaApenasApartamentos. 
+Nela, deixamos somente os endereços que são apartamentos do cliente.
 
-Representamos esse endereço como um objeto, por isso, colocamos as chaves "{}".
+Logo, a variável listaApenasApartamentos vai receber cliente.endrecos.filter().
 */
