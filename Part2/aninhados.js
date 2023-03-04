@@ -14,4 +14,4 @@ const cliente = {
     complemento: "ap 934",
   };
   
-  console.log(cliente['endereco']);
+  console.log(cliente.endereco);

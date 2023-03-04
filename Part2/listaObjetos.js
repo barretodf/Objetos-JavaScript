@@ -1,4 +1,4 @@
-//Adicionando uma nova entrada na lista - usando filter
+//Adicionando uma nova entrada na lista - usando o método filter
 
 const cliente = {
     nome: "Joao",
