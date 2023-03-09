@@ -19,7 +19,7 @@ const cliente = {
   
  
   for (let chave in cliente) {
-    console.log(chave);
+    console.log(cliente[chave]);
 }
 
-//Aqui ele retorna as chaves 
+//Aqui ele retorna as chaves e valores
