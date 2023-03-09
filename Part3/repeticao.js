@@ -16,10 +16,10 @@ const cliente = {
       complemento: "ap 934",
     },
   ];
-  
- 
-  for (let chave in cliente) {
-    console.log(cliente[chave]);
-}
 
-//Aqui ele retorna as chaves e valores
+for (let chave in cliente) {
+    let tipo = typeof cliente[chave];
+
+    console.log(`A chave ${chave} tem o valor ${cliente[chave]}`);
+}
+//Retorno com templait string
