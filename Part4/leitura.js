@@ -9,3 +9,7 @@ console.log(clienteEmString);
 console.log(typeof clienteEmString);
 
 console.log(clienteEmString.nome);
+
+const objetoCliente = JSON.parse(clienteEmString);
+
+console.log(objetoCliente);
