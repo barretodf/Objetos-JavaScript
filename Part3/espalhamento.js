@@ -19,4 +19,6 @@ function ligaParaCliente(telefoneComercial, telefoneResidencial) {
     console.log(`Ligando para ${telefoneResidencial}`);
   }
   
-  ligaParaCliente(cliente.telefone[0], cliente.telefone[1]);
+  ligaParaCliente(...cliente.telefone);
+
+  //sintaxe de espalhamento e como podemos utilizá-la com objetos2 
