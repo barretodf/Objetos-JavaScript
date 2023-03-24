@@ -8,4 +8,4 @@ function encontrar(lista, chave, valor) {
 
   const encontrado2 = encontrar(clientes, "telefone", "1918820860");
 
-    console.log(encontrado2);
+    console.log(encontrado);
