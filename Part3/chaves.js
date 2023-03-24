@@ -19,3 +19,9 @@ const cliente = {
 const chavesDoObjeto = Object.keys(cliente);
 
 console.log(chavesDoObjeto);
+
+//código omitido
+
+if (!chavesDoObjeto.includes("enderecos")) {
+    console.error("Erro. É necessário ter um endereço cadastrado.");
+  }
