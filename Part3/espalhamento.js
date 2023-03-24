@@ -21,4 +21,11 @@ function ligaParaCliente(telefoneComercial, telefoneResidencial) {
   
   ligaParaCliente(...cliente.telefone);
 
-  //sintaxe de espalhamento e como podemos utilizá-la com objetos2 
+const encomenda = {
+    destinatario: cliente.nome,
+    endereco: cliente.enderecos[0],
+  };
+  
+  console.log(encomenda);
+
+  
