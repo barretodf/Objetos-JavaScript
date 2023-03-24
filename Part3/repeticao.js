@@ -17,9 +17,11 @@ const cliente = {
     },
   ];
 
-for (let chave in cliente) {
-    let tipo = typeof cliente[chave];
+//código omitido
 
+for (let chave in cliente) {
+  let tipo = typeof cliente[chave];
+  if (tipo !== "object" && tipo !== "function") {
     console.log(`A chave ${chave} tem o valor ${cliente[chave]}`);
+  }
 }
-//Retorno com templait string
